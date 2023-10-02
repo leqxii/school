@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>circulare delicioso</title>
-
     <style>
         h1 {
             text-align: center;
@@ -75,7 +74,8 @@
         <label>
             <input type="checkbox" id="olives" name="extra's" value="olives">
             Extra Olives € 3,00
-        </label><br>
+        </label>
+        <br>
         <br>
 
         <label>
@@ -83,7 +83,8 @@
             Wil je de pizza laten bezorgen? € 3,50
         </label>
         <br>
-        <input type="submit" value="Bestellen!">
+        <input type="submit" name="bestelling" value="Bestellen!">
     <form>
+        
 </body>
 </html>
