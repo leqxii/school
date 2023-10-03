@@ -88,6 +88,7 @@
     $houtsoort = $_GET["houtsoort"];
     $tafelsoort = $_GET["tafelsoort"];
     
+    // berekeningen vierkante meter
     if ($houtsoort && $tafelsoort) {
         if ($tafelsoort == "rechthoekig") {
             $breedte = floatval($_GET["breedte"]);
@@ -98,7 +99,8 @@
             $straal = $diameter / 2000; 
             $oppervlakte = M_PI * $straal * $straal; 
         }
-    
+
+        // prijs berekeningen
         $houtsoorten = [
             "berkenhout" => 25.00,
             "eikenhout" => 50.00,

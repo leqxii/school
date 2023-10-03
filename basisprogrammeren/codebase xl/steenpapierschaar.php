@@ -11,8 +11,6 @@
     </style>
 </head>
 <body>
-<h1>Steen, Papier, Schaar</h1>
-
 <?php
 $playerWins = 0;
 $computerWins = 0;
@@ -55,19 +53,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <br>
     <input type="submit" value="Speel ronde">
 </form>
-
-<?php
-if ($playerWins + $computerWins == 3) {
-    echo "<h2>Winnaar:</h2>";
-    if ($playerWins > $computerWins) {
-        echo "<p>Jij bent de winnaar!</p>";
-    } elseif ($computerWins > $playerWins) {
-        echo "<p>Computer is de winnaar!</p>";
-    } else {
-        echo "<p>Het is een gelijkspel!</p>";
-    }
-}
-?>
-
 </body>
 </html>
