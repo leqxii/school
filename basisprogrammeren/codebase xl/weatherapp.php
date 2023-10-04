@@ -1,5 +1,5 @@
 <?php
-$api_key = 'fe8acfdd54758055aa4f71011569f278';
+include('config.php');
 
 $latitude = 52.520899;
 $longitude = 6.081883;
