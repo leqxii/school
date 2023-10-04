@@ -1,5 +1,5 @@
 <?php
-include('config.php');
+require 'weatherapp_api.php';
 
 $latitude = 52.520899;
 $longitude = 6.081883;
