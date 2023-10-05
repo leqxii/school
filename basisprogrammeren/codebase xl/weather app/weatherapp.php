@@ -6,22 +6,22 @@ $longitude = 6.081883;
 
 $url = "https://api.openweathermap.org/data/2.5/forecast?lat=$latitude&lon=$longitude&appid=$api_key";
 
-//$response = file_get_contents($url);
+$response = file_get_contents($url);
 
-//if ($response === false) {
-//    die('Failed to fetch data from OpenWeatherMap API');
+if ($response === false) {
+    die('Failed to fetch data from OpenWeatherMap API');
 }
 
-//$data = json_decode($response, true);
+$data = json_decode($response, true);
 
-//if ($data === null) {
-    //die('Failed to decode JSON data from OpenWeatherMap API');
+if ($data === null) {
+    die('Failed to decode JSON data from OpenWeatherMap API');
 }
 
-// if (isset($data['list'][0])) {
-//    $temperature = $data['list'][0]['main']['temp'];
-} //else {
-//    die('Data from OpenWeatherMap API does not contain the expected structure.');
+ if (isset($data['list'][0])) {
+    $temperature = $data['list'][0]['main']['temp'];
+} else {
+    die('Data from OpenWeatherMap API does not contain the expected structure.');
 }
 ?>
 <!DOCTYPE html>
