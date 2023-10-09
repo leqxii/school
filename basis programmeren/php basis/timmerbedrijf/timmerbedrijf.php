@@ -28,7 +28,7 @@
     <form method="get">
         <h2>Kies een houtsoort:</h2>
         <label>
-            <img src="img/timmerbedrijf/berkenhout.png" alt="Berkenhout" width="100" height="100">
+            <img src="img/berkenhout.png" alt="Berkenhout" width="100" height="100">
             <br>
             <input type="radio" id="berkenhout" name="houtsoort" value="berkenhout">
             Berkenhout - prijs per m2 € 25,00
@@ -36,7 +36,7 @@
         <br>
 
         <label>
-            <img src="img/timmerbedrijf/eikenhout.png" alt="Eikenhout" width="100" height="100">
+            <img src="img/eikenhout.png" alt="Eikenhout" width="100" height="100">
             <br>
             <input type="radio" id="eikenhout" name="houtsoort" value="eikenhout">
             Eikenhout - prijs per m2 € 50,00
@@ -44,7 +44,7 @@
         <br>
 
         <label>
-            <img src="img/timmerbedrijf/sparrenhout.png" alt="Sparrenhout" width="100" height="100"> 
+            <img src="img/sparrenhout.png" alt="Sparrenhout" width="100" height="100"> 
             <br>
             <input type="radio" id="sparrenhout" name="houtsoort" value="sparrenhout">
             Sparrenhout - prijs per m2 € 15,00
