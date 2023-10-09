@@ -1,7 +1,29 @@
-table, td, th {
+table, td {
     border: 1px solid black;
-}
+    }
+
 img#venkateshwara-logo {
     width: 60px;
     height: 60px;
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    line-height: 35px;
+}
+
+.centered-content {
+    text-align: center;
+}
+
+.centered-word {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+strong {
+    font-weight: bold;
 }
