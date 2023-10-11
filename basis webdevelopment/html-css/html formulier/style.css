@@ -1,3 +1,22 @@
 body {
+    background-color: #e0e0e0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #25255b;
+    margin-left: 10px;
+}
+
+.name-container {
+    background-color: #ffffff;
+    margin-left: 10px;
+    padding: 20px;
+    border: 1px solid #898989;
+    max-width: 750px;
+}
+
+label {
+    color: #25255b;
+    line-height: 40px;
 }
