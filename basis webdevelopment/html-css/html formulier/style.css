@@ -8,6 +8,16 @@ h1 {
     margin-left: 10px;
 }
 
+p {
+    color: #25255b;
+    line-height: 30px;
+}
+
+label {
+    color: #25255b;
+    line-height: 30px;
+}
+
 .name-container {
     background-color: #ffffff;
     margin-left: 10px;
@@ -16,7 +26,15 @@ h1 {
     max-width: 750px;
 }
 
-label {
-    color: #25255b;
-    line-height: 40px;
+.otherquestions-container {
+    background-color: #ffffff;
+    margin-left: 10px;
+    padding: 20px;
+    border: 1px solid #898989;
+    max-width: 750px;
+
+}
+
+.submit-button {
+    margin-left: 10px;
 }

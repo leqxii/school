@@ -11,11 +11,100 @@
     <form>
         <div class="name-container">
             <label for="first-name">First Name</label><br>
-            <input type="text" id="first-name" name="first-name"><br><br>
+            <input type="text" name="first-name"><br><br>
     
             <label for="last-name">Last Name</label><br>
-            <input type="text" id="last-name" name="last-name"><br>  
-        </div>
+            <input type="text" name="last-name"><br>  
+        </div><br>
+        <div class="otherquestions-container">
+            <p><label for="drink">Choose a drink:</label><br>
+            <input type="radio" name="drink">coffee<br>
+            <input type="radio" name="drink">tea<br>
+            <input type="radio" name="drink">hot chocolate</p>
+
+            <p><label for="ice-cream">What ice cream do you like?</label><br>
+            <input type="checkbox" name="ice-cream">Chocolate<br>
+            <input type="checkbox" name="ice-cream">Chocolate Pudding<br>
+            <input type="checkbox" name="ice-cream">Chocolate Peanut Butter<br>
+            <input type="checkbox" name="ice-cream">Vanille<br>
+            <input type="checkbox" name="ice-cream">Strawberry<br></p>
+            
+            <label>Select a School:</label><br>
+            <select id="school" name="school">
+                <optgroup label="ACC">
+                    <option label="Boston College"></option>
+                    <option label="Clemson"></option>
+                    <option label="Duke"></option>
+                    <option label="Florida State "></option>
+                    <option label="Georgia Tech"></option>
+                    <option label="Louiville"></option>
+                    <option label="Miami"></option>
+                    <option label="North Carolina"></option>
+                    <option label="North Carolina State"></option>
+                    <option label="Notre Dame"></option>
+                    <option label="Pitt"></option>
+                    <option label="Syracuse"></option>
+                    <option label="Virginia"></option>
+                    <option label="Virginia Tech"></option>
+                    <option label="Wake Forest"></option>
+                </optgroup>
+                <optgroup label="Big 10">
+                    <option label="Illionois"></option>
+                    <option label="Indiana"></option>
+                    <option label="Iowa"></option>
+                    <option label="Maryland"></option>
+                    <option label="Michigan"></option>
+                    <option label="Michigan State"></option>
+                    <option label="Minnesota"></option>
+                    <option label="Nebraska"></option>
+                    <option label="NBorthwestern"></option>
+                    <option label="Ohio State"></option>
+                    <option label="Penn State"></option>
+                    <option label="Purdue"></option>
+                    <option label="Rutgers"></option>
+                    <option label="Wisconsin"></option>
+                </optgroup>
+                <optgroup label="Big XII">
+                    <option label="Baylor"></option>
+                    <option label="Iowa State"></option>
+                    <option label="Kansas"></option>
+                    <option label="Kansas State"></option>
+                    <option label="Oklahoma"></option>
+                    <option label="Oklahoma State"></option>
+                    <option label="Texas"></option>
+                    <option label="Texas Christian"></option>
+                    <option label="Texas Tech"></option>
+                    <option label="West Virginia"></option>
+                </optgroup>
+                <optgroup label="Ivy League">
+                    <option label="Brown"></option>
+                    <option label="Columbia"></option>
+                    <option label="Cornell"></option>
+                    <option label="Dartmouth"></option>
+                    <option label="Harvard"></option>
+                    <option label="Penn"></option>
+                    <option label="Princeton"></option>
+                    <option label="Yale"></option>
+                </optgroup>
+                <optgroup label="Pac 12">
+                    <option label="Arizona"></option>
+                    <option label="Arizona State"></option>
+                    <option label="California"></option>
+                    <option label="Colorado"></option>
+                    <option label="Oregon"></option>
+                    <option label="Oregon State"></option>
+                    <option label="Stanford"></option>
+                    <option label="UCLA"></option>
+                    <option label="USC"></option>
+                    <option label="Utah"></option>
+                    <option label="Washington"></option>
+                    <option label="Washington State"></option>
+                </optgroup>
+            </select><br><br>
+            <label>Please provide comments:</label><br>
+            <textarea name="comments"></textarea>
+        </div><br>
+        <input type="submit" value="Nu inleveren" class="submit-button">
     </form>
 </body>
 </html>
