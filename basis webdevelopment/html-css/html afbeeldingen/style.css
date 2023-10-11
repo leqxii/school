@@ -1,0 +1,30 @@
+.logo {
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large; 
+    margin: 5px;
+}
+
+.persoon-image {
+    max-width: 175px;
+    margin: 5px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
