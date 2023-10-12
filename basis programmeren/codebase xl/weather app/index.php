@@ -17,10 +17,10 @@
             <td>temperatuur</td>
             <td>vochtigheid</td>
             <td>druk</td>
-            <td>bewolking</td>
-            <td>wind</td>
+            <td colspan="2">bewolking</td>
+            <td colspan="2">wind</td>
         </tr>
-        <?php for ($i = 0; $i < 4; $i++) { ?>
+        <?php for ($i = 0; $i < 5; $i++) { ?>
             <tr>
                 <td><?php echo $dates[$i]; ?></td>
                 <td><?php echo $times[$i]; ?></td>
@@ -28,7 +28,9 @@
                 <td><?php echo $humidities[$i]; ?> %</td>
                 <td><?php echo $pressures[$i]; ?> hPa</td>
                 <td><?php echo $descriptions[$i]; ?></td>
+                <td class="icon"><img src="img/<?php echo $icon; ?>.png"></td>
                 <td><?php echo $winds[$i]; ?> km/h</td>
+                <td class="wind-direction"><img src="img/arrow.png" style="transform: rotate(<?php echo $windDirection; ?>deg);"></td>
             </tr>
         <?php } ?>
     </table>

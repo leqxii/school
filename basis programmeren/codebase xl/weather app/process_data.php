@@ -30,15 +30,17 @@ $pressures = array();
 $descriptions = array();
 $winds = array();
 
-for ($i = 0; $i < 4; $i++) {
+for ($i = 0; $i < 5; $i++) {
     $weatherEntry = $weatherData[$i];
     $timestamp = strtotime($weatherEntry['dt_txt']);
     $dates[] = date('Y-m-d', $timestamp);
-    $times[] = date('H:i:s', $timestamp);
+    $times[] = date('H:i', $timestamp);
     $temperatures[] = $weatherEntry['main']['temp'] - 273;
     $humidities[] = $weatherEntry['main']['humidity'];
     $pressures[] = $weatherEntry['main']['pressure'];
     $descriptions[] = $weatherEntry['weather'][0]['description'];
+    $icon = $weatherEntry['weather'][0]['icon'];
     $winds[] = $weatherEntry['wind']['speed'];
+    $windDirection = $weatherEntry['wind']['deg'];
 }
 ?>
