@@ -20,7 +20,7 @@
             <td colspan="2">bewolking</td>
             <td colspan="2">wind</td>
         </tr>
-        <?php for ($i = 0; $i < 5; $i++) { ?>
+        <?php for ($i = 0; $i <40; $i++) { ?>
             <tr>
                 <td><?php echo $dates[$i]; ?></td>
                 <td><?php echo $times[$i]; ?></td>
@@ -30,7 +30,7 @@
                 <td><?php echo $descriptions[$i]; ?></td>
                 <td class="icon"><img src="img/<?php echo $icon; ?>.png"></td>
                 <td><?php echo $winds[$i]; ?> km/h</td>
-                <td class="wind-direction"><img src="img/arrow.png" style="transform: rotate(<?php echo $windDirection; ?>deg);"></td>
+                <td class="wind-direction"><img src="img/arrow.png" style="transform: rotate(<?php echo $windDirections[$i]; ?>deg);"></td>
             </tr>
         <?php } ?>
     </table>
