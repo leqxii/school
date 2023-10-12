@@ -1,38 +1,36 @@
-<?php
-require 'weatherapp_api.php';
+<?php include 'process_data.php'; ?>
 
-$latitude = 52.520899;
-$longitude = 6.081883;
-
-$url = "https://api.openweathermap.org/data/2.5/forecast?lat=$latitude&lon=$longitude&appid=$api_key";
-
-$response = file_get_contents($url);
-
-if ($response === false) {
-    die('Failed to fetch data from OpenWeatherMap API');
-}
-
-$data = json_decode($response, true);
-
-if ($data === null) {
-    die('Failed to decode JSON data from OpenWeatherMap API');
-}
-
- if (isset($data['list'][0])) {
-    $temperature = $data['list'][0]['main']['temp'];
-} else {
-    die('Data from OpenWeatherMap API does not contain the expected structure.');
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css" type="text/css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
 </head>
 <body>
     <h1>Het weer voor gebouw Groen</h1>
-    <p>Temperature: <?php echo $temperature; ?> &deg;K</p>
+    <table>
+        <tr class="table-header">
+            <td>datum-tijd</td>
+            <td>tijd</td>
+            <td>temperatuur</td>
+            <td>vochtigheid</td>
+            <td>druk</td>
+            <td>bewolking</td>
+            <td>wind</td>
+        </tr>
+        <?php for ($i = 0; $i < 4; $i++) { ?>
+            <tr>
+                <td><?php echo $dates[$i]; ?></td>
+                <td><?php echo $times[$i]; ?></td>
+                <td><?php echo $temperatures[$i]; ?> &deg;C</td>
+                <td><?php echo $humidities[$i]; ?> %</td>
+                <td><?php echo $pressures[$i]; ?> hPa</td>
+                <td><?php echo $descriptions[$i]; ?></td>
+                <td><?php echo $winds[$i]; ?> km/h</td>
+            </tr>
+        <?php } ?>
+    </table>
 </body>
 </html>

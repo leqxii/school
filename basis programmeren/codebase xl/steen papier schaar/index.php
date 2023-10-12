@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Steen, Papier, Schaar</title>
-    <style>
-        .choice img {
-            max-width: 200px;
-            display: inline-block;
-            margin-right: 10px;
-        }
-    </style>
 </head>
 <body>
 <?php
@@ -17,11 +11,11 @@ $computerWins = 0;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $playerChoice = $_POST['choice'];
-    $playerImage = "img/steenpapierschaar/$playerChoice.png";
+    $playerImage = "img/$playerChoice.png";
 
     $choices = ['bot_steen', 'bot_papier', 'bot_schaar'];
     $computerChoice = $choices[array_rand($choices)];
-    $computerImage = "img/steenpapierschaar/$computerChoice.png";
+    $computerImage = "img/$computerChoice.png";
 
     echo "<h2>Ronde</h2>";
     echo "<div class='choice'>";
