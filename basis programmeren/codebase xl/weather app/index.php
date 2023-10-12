@@ -28,7 +28,7 @@
                 <td><?php echo $humidities[$i]; ?> %</td>
                 <td><?php echo $pressures[$i]; ?> hPa</td>
                 <td><?php echo $descriptions[$i]; ?></td>
-                <td class="icon"><img src="img/<?php echo $icon; ?>.png"></td>
+                <td class="icon"><img src="img/<?php echo $icons[$i]; ?>.png"></td>
                 <td><?php echo $winds[$i]; ?> km/h</td>
                 <td class="wind-direction"><img src="img/arrow.png" style="transform: rotate(<?php echo $windDirections[$i]; ?>deg);"></td>
             </tr>

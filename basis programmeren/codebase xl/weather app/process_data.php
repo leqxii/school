@@ -39,7 +39,7 @@ for ($i = 0; $i <40; $i++) {
     $humidities[] = $weatherEntry['main']['humidity'];
     $pressures[] = $weatherEntry['main']['pressure'];
     $descriptions[] = $weatherEntry['weather'][0]['description'];
-    $icon = $weatherEntry['weather'][0]['icon'];
+    $icons[] = $weatherEntry['weather'][0]['icon'];
     $winds[] = $weatherEntry['wind']['speed'];
     $windDirections[] = $weatherEntry['wind']['deg'];
 }
