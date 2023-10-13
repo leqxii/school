@@ -1,13 +1,4 @@
-h1 {
-    text-align: center;
-    margin-top: 20px;
-}
-.pizza-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.pizza-label img {
-    width: 325px;
-    height: 225px;
+.images img {
+    width: 163px;
+    height: 112px;
 }
