@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#jaarLabel {
+    display: block;
+    text-align: center;
+}
+
+#jaarInput {
+    width: 50px;
+}
