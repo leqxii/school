@@ -2,6 +2,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.h1 {
+    font-weight: bold;
+}
+
+.output-kader {
+    border: 1px solid red;
+    padding: 10px;
+    width: 245px;
+    border-radius: 2px;
+}
+
 #jaarLabel {
     display: block;
     text-align: center;
