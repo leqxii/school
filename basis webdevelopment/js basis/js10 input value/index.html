@@ -1,41 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Input value</title>
-</head>
-<body>
+  </head>
+  <body>
     <label class="h1">Output:</label>
-    <div id="output" class="output-kader"></div><br>
+    <div id="output" class="output-kader"></div>
+    <br />
 
     <form id="input">
-        <table>
-            <tr>
-                <td><label for="voornaam">Voornaam:</label></td>
-                <td><input type="text" id="voornaam" placeholder="Voornaam" required></td>
-            </tr>
+      <table>
+        <tr>
+          <td><label for="voornaam">Voornaam:</label></td>
+          <td>
+            <input type="text" id="voornaam" placeholder="Voornaam" required />
+          </td>
+        </tr>
 
-            <tr>
-                <td><label for="achternaam">Achternaam:</label></td>
-                <td><input type="text" id="achternaam" placeholder="Achternaam" required></td>
-            </tr>
+        <tr>
+          <td><label for="achternaam">Achternaam:</label></td>
+          <td>
+            <input
+              type="text"
+              id="achternaam"
+              placeholder="Achternaam"
+              required
+            />
+          </td>
+        </tr>
 
-            <tr>
-                <td><label for="leeftijd">Leeftijd:</label></td>
-                <td><input type="number" id="leeftijd" placeholder="Leeftijd" required></td>
-            </tr>
+        <tr>
+          <td><label for="leeftijd">Leeftijd:</label></td>
+          <td>
+            <input
+              type="number"
+              id="leeftijd"
+              placeholder="Leeftijd"
+              required
+            />
+          </td>
+        </tr>
 
-            <tr>
-                <td><label for="jaartal" id="jaarLabel">Over:</label></td>
-                <td><input type="number" id="jaartal" placeholder="x" required> jaar...</td>
-            </tr>
-        </table>
-        <br>
-        <input type="button" value="Plaats tekst" onclick="genereerOutput()">
+        <tr>
+          <td><label for="jaartal" id="jaarLabel">Over:</label></td>
+          <td>
+            <input type="number" id="jaartal" placeholder="x" required />
+            jaar...
+          </td>
+        </tr>
+      </table>
+      <br />
+      <input type="button" value="Plaats tekst" onclick="genereerOutput()" />
     </form>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
