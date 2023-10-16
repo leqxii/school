@@ -15,8 +15,6 @@ for ($i = 1; $i <= 1247; $i++) {
     <title>Loops</title>
 </head>
 <body>
-    <?php
-    echo $resultaten;
-    ?>
+    <?php echo $resultaten; ?>
 </body>
 </html>

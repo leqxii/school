@@ -22,15 +22,15 @@ if (isset($data['list'])) {
     $weatherData = $data['list'];
 }
 
-$dates = array();
-$times = array();
-$temperatures = array();
-$humidities = array();
-$pressures = array();
-$descriptions = array();
-$winds = array();
+$dates = [];
+$times = [];
+$temperatures = [];
+$humidities = [];
+$pressures = [];
+$descriptions = [];
+$winds = [];
 
-for ($i = 0; $i <40; $i++) {
+for ($i = 0; $i < 40; $i++) {
     $weatherEntry = $weatherData[$i];
     $timestamp = strtotime($weatherEntry['dt_txt']);
     $dates[] = date('Y-m-d', $timestamp);

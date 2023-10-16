@@ -16,11 +16,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kleurkiezer</title>
-    
-    <?php
-    if (!empty($selectedColor)) {
-        echo '<style>body { background-color: ' . $selectedColor . '; }</style>';
-    }
+
+    <?php if (!empty($selectedColor)) {
+        echo '<style>body { background-color: ' .
+            $selectedColor .
+            '; }</style>';
+        }
     ?>
 </head>
 <body>
@@ -35,12 +36,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <input type="submit" value="Submit">
     </form>
 
-    <?php
-    if (!empty($message)) {
+    <?php if (!empty($message)) {
         echo '<div id="result">';
         echo '<h1>' . $message . '</h1>';
         echo '</div>';
-    }
+        }
     ?>
 </body>
 </html>

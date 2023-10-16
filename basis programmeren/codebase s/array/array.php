@@ -1,5 +1,5 @@
 <?php
-$programmeertalen = array("PHP", "C#", "HTML", "JavaScript", "Java", "C++", "C");
+$programmeertalen = ["PHP", "C#", "HTML", "JavaScript", "Java", "C++", "C"];
 
 array_push($programmeertalen, "Python", "Swift");
 

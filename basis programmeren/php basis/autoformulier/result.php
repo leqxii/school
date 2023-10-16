@@ -1,6 +1,6 @@
 <?php
 if (isset($_GET['auto'])) {
-        $selectedCar = $_GET['auto'];
+    $selectedCar = $_GET['auto'];
 }
 ?>
 <!DOCTYPE html>
@@ -14,8 +14,17 @@ if (isset($_GET['auto'])) {
 <body>
     <h1>Nice cars</h1>
     <?php
-    echo '<img src="img/' . $selectedCar . '-1.png" alt="' . $selectedCar . ' 1">';
-    echo '<img src="img/' . $selectedCar . '-2.png" alt="' . $selectedCar . ' 2">';
-    ?>
+    echo '<img src="img/' .
+        $selectedCar .
+        '-1.png" alt="' .
+        $selectedCar .
+        ' 1">';
+    echo '<img src="img/' .
+        $selectedCar .
+        '-2.png" alt="' .
+        $selectedCar .
+        ' 2">';
+        
+?>
 </body>
 </html>

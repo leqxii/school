@@ -6,7 +6,7 @@ $geboortedatum = DateTime::createFromFormat('d-m-Y', $geboortedatum);
 
 if ($geboortedatum === false) {
     echo "Ongeldige geboortedatum. Voer de datum in het formaat DD-MM-YYYY in.\n";
-    exit;
+    exit();
 }
 
 $huidigeDatum = new DateTime();

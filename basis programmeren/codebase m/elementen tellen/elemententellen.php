@@ -21,7 +21,7 @@ $woonplaatsen = [
 ];
 
 $telwoorden = array_count_values($woonplaatsen);
-arsort($telwoorden); 
+arsort($telwoorden);
 
 foreach ($telwoorden as $woonplaats => $aantal) {
     echo "$woonplaats: $aantal \n";

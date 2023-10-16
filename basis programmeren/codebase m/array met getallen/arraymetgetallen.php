@@ -1,7 +1,7 @@
 <?php
 $array = [];
 for ($i = 0; $i < 20; $i++) {
-    $array[] = rand(0,500);
+    $array[] = rand(0, 500);
 }
 
 echo "Kies een getal: ";

@@ -6,7 +6,7 @@ $conversiefactoren = [
     "Meter" => 10,
     "Decimeter" => 100,
     "Centimeter" => 1000,
-    "Millimeter" => 10000
+    "Millimeter" => 10000,
 ];
 
 echo "Welke waarde: ";
@@ -18,8 +18,13 @@ $grootheid1 = trim(fgets(STDIN));
 echo "Welke gewenste grootheid: ";
 $grootheid2 = trim(fgets(STDIN));
 
-if (array_key_exists($grootheid1, $conversiefactoren) && array_key_exists($grootheid2, $conversiefactoren)) {
-    $omgerekendeWaarde = $waarde * ($conversiefactoren[$grootheid2] / $conversiefactoren[$grootheid1]);
+if (
+    array_key_exists($grootheid1, $conversiefactoren) &&
+    array_key_exists($grootheid2, $conversiefactoren)
+) {
+    $omgerekendeWaarde =
+        $waarde *
+        ($conversiefactoren[$grootheid2] / $conversiefactoren[$grootheid1]);
 
     echo "Omrekening: {$waarde} {$grootheid1} = {$omgerekendeWaarde} {$grootheid2}\n";
 } else {

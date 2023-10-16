@@ -1,5 +1,7 @@
 <?php
-$aantalProducten = intval(readline("Hoeveel producten wil je op je boodschappenlijst plaatsen? "));
+$aantalProducten = intval(
+    readline("Hoeveel producten wil je op je boodschappenlijst plaatsen? ")
+);
 
 if ($aantalProducten <= 0 || !is_numeric($aantalProducten)) {
     echo "Ongeldige invoer. Voer een geldig getal in.\n";

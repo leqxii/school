@@ -1,6 +1,6 @@
 <?php
 while (true) {
-    $aantalProducten = (int)readline("Hoeveel producten heeft U: ");
+    $aantalProducten = (int) readline("Hoeveel producten heeft U: ");
 
     if ($aantalProducten >= 0) {
         break;
@@ -9,11 +9,11 @@ while (true) {
     }
 }
 
-$bedragen = array();
+$bedragen = [];
 
-for ($i = 0; $i < $aantalProducten; $i++) { 
+for ($i = 0; $i < $aantalProducten; $i++) {
     do {
-        $bedrag = (float)readline("Geef bedrag " . ($i + 1) . " : ");
+        $bedrag = (float) readline("Geef bedrag " . ($i + 1) . " : ");
     } while (!is_numeric($bedrag));
 
     $bedragen[] = $bedrag;
@@ -32,7 +32,7 @@ while ($resterendBedrag > 0) {
         break;
     } elseif ($betaalwijze == "contant") {
         $contantBedrag = ceil($resterendBedrag * 20) / 20;
-        $betaaldBedrag = (float)readline("Hoeveel contant wilt u betalen: ");
+        $betaaldBedrag = (float) readline("Hoeveel contant wilt u betalen: ");
 
         if ($betaaldBedrag >= 0 && $betaaldBedrag >= $contantBedrag) {
             $wisselgeld = $betaaldBedrag - $contantBedrag;

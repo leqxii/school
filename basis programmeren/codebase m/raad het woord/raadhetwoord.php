@@ -1,5 +1,5 @@
 <?php
-$woorden = array(
+$woorden = [
     "appel",
     "banaan",
     "koffie",
@@ -14,8 +14,8 @@ $woorden = array(
     "fiets",
     "zon",
     "maan",
-    "ster"
-);
+    "ster",
+];
 
 $willekeurigWoord = $woorden[array_rand($woorden)];
 

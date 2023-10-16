@@ -87,8 +87,7 @@
     <?php
     $houtsoort = $_GET["houtsoort"];
     $tafelsoort = $_GET["tafelsoort"];
-    
-    // berekeningen vierkante meter
+
     if ($houtsoort && $tafelsoort) {
         if ($tafelsoort == "rechthoekig") {
             $breedte = floatval($_GET["breedte"]);
@@ -96,27 +95,31 @@
             $oppervlakte = ($breedte / 1000) * ($lengte / 1000);
         } elseif ($tafelsoort == "rond") {
             $diameter = floatval($_GET["diameter"]);
-            $straal = $diameter / 2000; 
-            $oppervlakte = M_PI * $straal * $straal; 
+            $straal = $diameter / 2000;
+            $oppervlakte = M_PI * $straal * $straal;
         }
 
-        // prijs berekeningen
         $houtsoorten = [
-            "berkenhout" => 25.00,
-            "eikenhout" => 50.00,
-            "sparrenhout" => 15.00,
+            "berkenhout" => 25.0,
+            "eikenhout" => 50.0,
+            "sparrenhout" => 15.0,
         ];
-        
+
         $prijsPerVierkanteMeter = $houtsoorten[$houtsoort];
         $totaalPrijs = $oppervlakte * $prijsPerVierkanteMeter;
-   
-        echo "Prijs per vierkante meter: € " . number_format($prijsPerVierkanteMeter, 2) . "<br>";
-        echo "Oppervlakte: " . number_format($oppervlakte, 2) . " vierkante meter<br>";
+
+        echo "Prijs per vierkante meter: € " .
+            number_format($prijsPerVierkanteMeter, 2) .
+            "<br>";
+        echo "Oppervlakte: " .
+            number_format($oppervlakte, 2) .
+            " vierkante meter<br>";
         echo "Totale prijs: € " . number_format($totaalPrijs, 2);
     } else {
         echo "Selecteer een geldige houtsoort en tafelsoort om de prijs te berekenen.";
     }
-    ?>
+
+?>
 </body>
 </html>
 

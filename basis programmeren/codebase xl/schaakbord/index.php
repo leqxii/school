@@ -5,7 +5,7 @@
 </head>
 <body>
     <div class="chessboard">
-        <?php
+    <?php
         for ($row = 8; $row >= 1; $row--) {
             for ($col = 0; $col < 8; $col++) {
                 $isWhite = ($row + $col) % 2 == 0;

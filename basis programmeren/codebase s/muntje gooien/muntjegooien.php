@@ -12,6 +12,5 @@ do {
 
     echo "Wil je nog een keer? (ja/nee): ";
     $antwoord = readline();
-
 } while (strtolower($antwoord) === 'ja');
 ?>
