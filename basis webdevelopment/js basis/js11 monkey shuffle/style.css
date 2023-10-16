@@ -1,0 +1,21 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.image-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+}
