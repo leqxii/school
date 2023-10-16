@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Steen, Papier, Schaar</title>
 </head>
+
 <body>
-<?php
+    <?php
 $playerWins = 0;
 $computerWins = 0;
 
@@ -39,13 +41,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<form method="post">
-    <h2>Kies je hand:</h2>
-    <label><input type="radio" name="choice" value="steen"> Steen</label>
-    <label><input type="radio" name="choice" value="papier"> Papier</label>
-    <label><input type="radio" name="choice" value="schaar"> Schaar</label>
-    <br>
-    <input type="submit" value="Speel ronde">
-</form>
+    <form method="post">
+        <h2>Kies je hand:</h2>
+        <label><input type="radio" name="choice" value="steen"> Steen</label>
+        <label><input type="radio" name="choice" value="papier"> Papier</label>
+        <label><input type="radio" name="choice" value="schaar"> Schaar</label>
+        <br>
+        <input type="submit" value="Speel ronde">
+    </form>
 </body>
+
 </html>
