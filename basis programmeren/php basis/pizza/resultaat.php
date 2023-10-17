@@ -1,5 +1,8 @@
 <?php
 $totaalPrijs = 0;
+
+if (isset($_GET['pizza'])) {
+}
 ?>
 
 <!DOCTYPE html>
