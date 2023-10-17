@@ -4,120 +4,137 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>circulare delicioso</title>
+    <title>Circulare Delicioso Menu</title>
   </head>
   <body>
     <h1>Circular Delicioso Menu</h1>
     <h2>Pizza's</h2>
-    <table>
-      <tr class="images">
-        <td>
-          <img src="img/pizza_margaritha.png" alt="Pizza Margaritha" />
-        </td>
-        <td>
-          <img src="img/pizza_pepperoni.png" alt="Pizza Perfect Pepperoni" />
-        </td>
-        <td>
-          <img src="img/pizza_salami.png" alt="Pizza Salami" />
-        </td>
-        <td>
-          <img src="img/pizza_funghi.png" alt="Pizza Funghi" />
-        </td>
-        <td>
-          <img src="img/pizza_shoarma.png" alt="Pizza Shawarma" />
-        </td>
-        <td>
-          <img src="img/pizza_tonno.png" alt="Pizza Tonno" />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <label>
-            <input
-              type="checkbox"
-              id="margaritha"
-              name="pizza"
-              value="margaritha"
-            />
-            Pizza Margaritha € 8,99
-          </label>
-        </td>
+    <form action="resultaat.php" method="get">
+      <table>
+        <tr class="images">
+          <td>
+            <img src="img/pizza_margaritha.png" alt="Pizza Margaritha" />
+          </td>
+          <td>
+            <img src="img/pizza_pepperoni.png" alt="Pizza Perfect Pepperoni" />
+          </td>
+          <td>
+            <img src="img/pizza_salami.png" alt="Pizza Salami" />
+          </td>
+          <td>
+            <img src="img/pizza_funghi.png" alt="Pizza Funghi" />
+          </td>
+          <td>
+            <img src="img/pizza_shoarma.png" alt="Pizza Shawarma" />
+          </td>
+          <td>
+            <img src="img/pizza_tonno.png" alt="Pizza Tonno" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>
+              <input
+                type="checkbox"
+                id="margaritha"
+                name="pizza"
+                value="margaritha"
+              />
+              Pizza Margaritha € 8,99
+            </label>
+          </td>
 
-        <td>
-          <label>
-            <input
-              type="checkbox"
-              id="pepperoni"
-              name="pizza"
-              value="pepperoni"
-            />
-            Pizza Perfect Pepperoni € 8,99
-          </label>
-        </td>
-        <td>
-          <label>
-            <input type="checkbox" id="salami" name="pizza" value="salami" />
-            Pizza Salami € 9,49
-          </label>
-        </td>
-        <td>
-          <label>
-            <input type="checkbox" id="funghi" name="pizza" value="funghi" />
-            Pizza Funghi € 8,99
-          </label>
-        </td>
-        <td>
-          <label>
-            <input type="checkbox" id="shoarma" name="pizza" value="shoarma" />
-            Pizza Shawarma € 13,49
-          </label>
-        </td>
-        <td>
-          <label>
-            <input type="checkbox" id="tonno" name="pizza" value="tonno" />
-            Pizza Tonno € 14,49
-          </label>
-        </td>
-      </tr>
-    </table>
-    <br />
+          <td>
+            <label>
+              <input
+                type="checkbox"
+                id="pepperoni"
+                name="pizza"
+                value="pepperoni"
+              />
+              Pizza Perfect Pepperoni € 8,99
+            </label>
+          </td>
+          <td>
+            <label>
+              <input type="checkbox" id="salami" name="pizza" value="salami" />
+              Pizza Salami € 9,49
+            </label>
+          </td>
+          <td>
+            <label>
+              <input type="checkbox" id="funghi" name="pizza" value="funghi" />
+              Pizza Funghi € 8,99
+            </label>
+          </td>
+          <td>
+            <label>
+              <input
+                type="checkbox"
+                id="shoarma"
+                name="pizza"
+                value="shoarma"
+              />
+              Pizza Shawarma € 13,49
+            </label>
+          </td>
+          <td>
+            <label>
+              <input type="checkbox" id="tonno" name="pizza" value="tonno" />
+              Pizza Tonno € 14,49
+            </label>
+          </td>
+        </tr>
+      </table>
+      <br />
 
-    <h2>Extra's</h2>
-    <table>
-      <tr>
-        <td>
-          <label>
-            <input type="checkbox" id="cheese" name="extra's" value="cheese" />
-            Extra Cheese
-          </label>
-        </td>
-        <td>€ 2,00</td>
-      </tr>
-      <tr>
-        <td>
-          <label>
-            <input type="checkbox" id="olives" name="extra's" value="olives" />
-            Extra Olives
-          </label>
-        </td>
-        <td>€ 3,00</td>
-      </tr>
-      <tr>
-        <td>
-          <label>
-            <input
-              type="checkbox"
-              id="bezorgkosten"
-              name="extra's"
-              value="bezorgkosten"
-            />
-            Wil je de pizza laten bezorgen?
-          </label>
-        </td>
-        <td>€ 3,50</td>
-      </tr>
-    </table>
-    <br />
-    <input type="submit" name="bestelling" value="Bestellen!" />
+      <h2>Extra's</h2>
+      <table>
+        <tr>
+          <td>
+            <label>
+              <input
+                type="checkbox"
+                id="cheese"
+                name="extra's"
+                value="cheese"
+              />
+              Extra Cheese
+            </label>
+          </td>
+          <td>€ 2,00</td>
+        </tr>
+        <tr>
+          <td>
+            <label>
+              <input
+                type="checkbox"
+                id="olives"
+                name="extra's"
+                value="olives"
+              />
+              Extra Olives
+            </label>
+          </td>
+          <td>€ 3,00</td>
+        </tr>
+        <tr>
+          <td>
+            <label>
+              <input
+                type="checkbox"
+                id="bezorgkosten"
+                name="extra's"
+                value="bezorgkosten"
+              />
+              Wil je de pizza laten bezorgen?
+            </label>
+          </td>
+          <td>€ 3,50</td>
+        </tr>
+      </table>
+      <br />
+      <input type="submit" name="bestelling" value="Bestellen!" />
+    </form>
   </body>
 </html>

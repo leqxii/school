@@ -1,3 +1,11 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
 .images img {
     width: 163px;
     height: 112px;
