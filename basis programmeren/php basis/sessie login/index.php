@@ -1,3 +1,15 @@
+<?php
+  session_start();
+  if (isset($_POST['naam']) && isset($_POST['wachtwoord'])) {
+    if ($_POST['naam'] == 'karel' && $_POST['wachtwoord'] == '1234') {
+      $_SESSION['is_ingelogd'] = true;
+      header('Location: toegang.php');
+    } else {
+      header('Location: geen-toegang.html');
+    }
+  }
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
