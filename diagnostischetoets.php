@@ -25,7 +25,7 @@
   }
   $gemiddeldeLeeftijd = $totaalLeeftijd / count($leeftijden);  
 
-  /* Echoes. */
+  /* Output. */
   echo "Er " . ($boven18 == 1 ? "is 1 persoon" : "zijn $boven18 personen") . " 18 jaar of ouder.\n";
   echo "Er " . ($onder18 == 1 ? "is 1 persoon" : "zijn $onder18 personen") . " jonger dan 18 jaar.\n";
   echo "De gemiddelde leeftijd is $gemiddeldeLeeftijd jaar.\n";
