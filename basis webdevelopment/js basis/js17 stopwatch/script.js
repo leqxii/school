@@ -28,6 +28,15 @@ function fStop() {
 	document.getElementById("startTimer").disabled = false;
 }
 
+function fReset() {
+	clearInterval(timerInterval);
+	minutes = 0;
+	seconds = 0;
+	milliseconds = 0;
+	updateTimerDisplay();
+	document.getElementById("startTimer").disabled = false;
+}
+
 function updateTimerDisplay() {
 	const formattedMinutes = String(minutes).padStart(2, "0");
 	const formattedSeconds = String(seconds).padStart(2, "0");
