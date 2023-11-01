@@ -44,16 +44,22 @@
           } else if ($selectedExtra == 'olives') {
             $totalPrice += 3.00;
             echo 'Extra Olives € 3,00<br>';
+          } else if ($selectedExtra == 'bezorgkosten') {
+            $totalPrice += 3.50; // Bezorgkosten zijn 3,50 euro
+            echo 'Bezorgkosten € 3,50<br>';
           }
         }
       }
-
+    
       echo '<h3>Totaalprijs:</h3>';
-      echo '<p>€ ' . number_format($totalPrice, 2) . '</p>';
+      if (in_array('bezorgkosten', $_GET['extra'])) {
+        echo '<p>Als de pizzabezorger komt, moet je € ' . number_format($totalPrice, 2) . ' betalen!</p>';
+      } else {
+        echo '<p>U betaalt € ' . number_format($totalPrice, 2) . ' aan onze kassa.</p>';
+      }
     } else {
       echo '<p>Je hebt nog geen bestelling geplaatst.</p>';
     }
-  ?>
-
+  ?>    
 </body>
 </html>
