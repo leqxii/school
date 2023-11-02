@@ -7,6 +7,132 @@
     <title>form validate A</title>
   </head>
   <body>
+    <form class="input">
+      <h2>Test formulier</h2>
+      <table>
+        <tr>
+          <td>*</td>
+          <td>
+            <label for="naam">Naam:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="voornaam"
+              class="input"
+              placeholder="voornaam"
+            />
+            <input type="text" id="tv" class="input" placeholder="tv" />
+            <input
+              type="text"
+              id="achternaam"
+              class="input"
+              placeholder="achternaam"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>
+            <label for="adres">Adres:</label>
+          </td>
+          <td>
+            <input type="text" id="adres" class="input" placeholder="adres" />
+          </td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>
+            <label for="plaats">PC Plaats:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="postcode"
+              class="input"
+              placeholder="postcode"
+            />
+            <input type="text" id="plaats" class="input" placeholder="plaats" />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <label for="telefoon">Telefoon:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="telefoon"
+              class="input"
+              placeholder="telefoon"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <label for="email">Email:</label>
+          </td>
+          <td>
+            <input type="text" id="email" class="input" />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <label for="geslacht">Geslacht:</label>
+          </td>
+          <td>
+            <input type="radio" class="input" name="geslacht" />
+            Vrouw
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>
+            <input type="radio" class="input" name="geslacht" />
+            Man
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <label for="boyband">Boyband</label>
+          </td>
+          <td>
+            <select id="boyband" class="input" name="boyband">
+              <option value="backstreet boys">Backstreet Boys</option>
+              <option value="new kids on the block">
+                New Kids on the Block
+              </option>
+              <option value="one direction">One Direction</option>
+              <option value="bts">BTS</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <label for="datum">Geb.datum:</label>
+          </td>
+          <td>
+            <input type="text" />
+            <i>Opmaak: "dd-mm-jjjj"</i>
+          </td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>verplichte velden</td>
+          <td>
+            <input type="button" value="verstuur" onclick="" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <br />
+    <div id="output" class="output"></div>
     <script src="script.js"></script>
   </body>
 </html>

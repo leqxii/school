@@ -1,0 +1,34 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input {
+  border: 1px solid grey;
+  padding-left: 10px;
+}
+
+#tv {
+  width: 20px;
+}
+
+#adres {
+  width: 383px;
+}
+
+#postcode {
+  width: 80px;
+}
+
+#plaats {
+  width: 284px;
+}
+
+#email {
+  width: 383px;
+}
+
+.output {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: red;
+}
