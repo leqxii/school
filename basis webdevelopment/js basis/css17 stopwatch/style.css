@@ -1,0 +1,23 @@
+body {
+  background-image: url('img/stopwatch.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 0%;
+  width: max-content;
+}
+
+@font-face {
+  font-family: quartz;
+  src: url('docs/quartz.ttf') format('truetype');
+}
+
+.timerDisplay {
+  font-family: "quartz";
+  font-size: 775%;
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #606166;
+  background-color: #98999D;
+}

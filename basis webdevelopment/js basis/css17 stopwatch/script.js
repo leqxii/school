@@ -43,5 +43,5 @@ function updateTimerDisplay() {
 	const formattedMilliseconds = String(milliseconds).padStart(2, "0");
 
 	const timerDisplay = document.querySelector(".timerDisplay");
-	timerDisplay.textContent = `${formattedMinutes} : ${formattedSeconds} : ${formattedMilliseconds}`;
+	timerDisplay.textContent = `${formattedMinutes}:${formattedSeconds}:${formattedMilliseconds}`;
 }
