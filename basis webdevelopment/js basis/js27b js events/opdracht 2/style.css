@@ -1,0 +1,16 @@
+body {
+  background-color: #e0e0e0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  color: #25255b;
+  line-height: 30px;
+}
+
+.container {
+  background-color: #ffffff;
+  margin-left: 10px;
+  padding: 20px;
+  border: 1px solid #898989;
+}

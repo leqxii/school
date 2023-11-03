@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Min/Max Lengte Input</title>
+  </head>
+  <body>
+    <div class="container">
+      <label for="minLength">Minimale lengte</label><br />
+      <input type="number" id="minLength" value="0" />
+      <br />
+      <label for="maxLength">Maximale lengte</label><br />
+      <input type="number" id="maxLength" value="100" />
+      <br />
+    </div>
+    <br />
+    <div class="container">
+      <textarea id="textInput" placeholder="Voer hier tekst in"></textarea>
+      <br />
+      <button onclick="">Controleer lengte</button>
+      <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
