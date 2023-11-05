@@ -14,3 +14,21 @@ function fLaadBier_plainJS() {
   xhttp.open("GET", url, true);
   xhttp.send();
 }
+
+function fJson2Html(data, method) {
+  const tableBody = document.getElementById("table-body");
+
+  data.forEach(function (bier) {
+    const row = tableBody.insertRow();
+    row.insertCell(0).innerHTML = bier.id;
+    row.insertCell(1).innerHTML = bier.naam;
+    row.insertCell(2).innerHTML = bier.brouwer;
+    row.insertCell(3).innerHTML = (bier.perc * 100).toFixed(1) + "%";
+    row.insertCell(4).innerHTML = bier.gisting;
+    row.insertCell(5).innerHTML = "€ " + bier.inkoop_prijs;
+  });
+
+  console.log("Tabel gevuld met data geladen via " + method);
+}
+
+fLaadBier_plainJS();
