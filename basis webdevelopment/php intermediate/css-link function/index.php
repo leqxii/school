@@ -6,6 +6,5 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS-link function</title>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
