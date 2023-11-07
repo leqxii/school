@@ -4,13 +4,15 @@
     $_GET['controller'] = 'home';
   }
 
-  $validControllers = ['home', 'gallery'];
   $controller = $_GET['controller'];
 
-  if (in_array($controller, $validControllers)) {
-    include('content/' . $controller . '.php');
+  $content_file = 'content/' . $controller . '.php';
+  if (file_exists($content_file)) {
+    include($content_file);
+    $function = $controller;
+    $render = $function();
   } else {
-    echo '<p>Page not found</p>';
+    $render = '<p>Content not found.</p>';
   }
 ?>
 <!DOCTYPE html>
@@ -27,11 +29,7 @@
       <a href="index.php?controller=gallery">Gallery</a> 
     </nav>
     <article>
-      <?php
-        if (function_exists($controller)) {
-          $controller();
-        }
-      ?>
+      <?php echo $render; ?>
     </article>
   </body>
 </html>
