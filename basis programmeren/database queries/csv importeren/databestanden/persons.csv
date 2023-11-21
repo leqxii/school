@@ -1,0 +1,81 @@
+id,title,firstname,lastname,email,jobtitle,created_at,updated_at
+1,mevr.,Liam,Polat,l.polat@superduper-markets.com,verkoopassistent,2022-12-23 10:31:09,2022-12-23 10:31:09
+2,dhr.,Ian,van der Horst,i.vanderhorst@superduper-markets.com,magazijnmedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+3,mevr.,Riley,Yüksel,r.yüksel@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+4,dhr.,Mads,Aslan,m.aslan@superduper-markets.com,verkoopassistent,2022-12-23 10:31:09,2022-12-23 10:31:09
+5,dhr.,Lindsey,van Dommelen,l.vandommelen@superduper-markets.com,projectleider,2022-12-23 10:31:09,2022-12-23 10:31:09
+6,mevr.,Kai,de Lange,k.delange@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+7,mevr.,Johanna,Kort,j.kort@superduper-markets.com,verkoopassistent,2022-12-23 10:31:09,2022-12-23 10:31:09
+8,prof.,Fenna,Verbeek,f.verbeek@superduper-markets.com,magazijnmedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+9,dr.,Elise,van der Velden,e.vandervelden@superduper-markets.com,kassamedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+10,dr.,Nikki,Korkmaz,n.korkmaz@superduper-markets.com,kassamedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+11,dr.,Faas,Evers,f.evers@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+12,mevr.,Jolie,Le,j.le@superduper-markets.com,medewerker communicatie,2022-12-23 10:31:09,2022-12-23 10:31:09
+13,dhr.,Thomas,Hoekstra,t.hoekstra@superduper-markets.com,magazijnmedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+14,dhr.,Sofie,Cornelissen,s.cornelissen@superduper-markets.com,medewerker M&O,2022-12-23 10:31:09,2022-12-23 10:31:09
+15,dhr.,Lisanne,Farah,l.farah@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+16,mevr.,Wouter,Sital,w.sital@superduper-markets.com,medewerker M&O,2022-12-23 10:31:09,2022-12-23 10:31:09
+17,prof.,Matthijs,Persijn,m.persijn@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+18,mr.,Rafael,Bosman,r.bosman@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+19,mevr.,Anna,Kramer,a.kramer@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+20,mevr.,Pepijn,Koning Knol,p.koningknol@superduper-markets.com,projectleider,2022-12-23 10:31:09,2022-12-23 10:31:09
+21,ds.,Luke,Driessen,l.driessen@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+22,mevr.,Mats,Spaan,m.spaan@superduper-markets.com,magazijnmedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+23,prof.,Sophie,Lijn,s.lijn@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+24,drs.,Ben,Osterhoudt,b.osterhoudt@superduper-markets.com,supervisor,2022-12-23 10:31:09,2022-12-23 10:31:09
+25,dhr.,Kyano,Gnodde,k.gnodde@superduper-markets.com,verkoopassistent,2022-12-23 10:31:09,2022-12-23 10:31:09
+26,dhr.,Ruben,Visser,r.visser@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+27,prof.,Levi,van Dongen,l.vandongen@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+28,mevr.,Jip,Geneart,j.geneart@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+29,drs.,Lot,Vos,l.vos@superduper-markets.com,supervisor,2022-12-23 10:31:09,2022-12-23 10:31:09
+30,dr.,Sofie,Meyer,s.meyer@superduper-markets.com,medewerker M&O,2022-12-23 10:31:09,2022-12-23 10:31:09
+31,mevr.,Thom,van de Veen,t.vandeveen@superduper-markets.com,magazijnmedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+32,mevr.,Amir,Bernaards,a.bernaards@superduper-markets.com,verkoopassistent,2022-12-23 10:31:09,2022-12-23 10:31:09
+33,drs.,Janne,Geertsen,j.geertsen@superduper-markets.com,kassamedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+34,dhr.,Sienna,Henriquez,s.henriquez@superduper-markets.com,verkoopassistent,2022-12-23 10:31:09,2022-12-23 10:31:09
+35,drs.,Maurits,Boer,m.boer@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+36,mevr.,Ibrahim,van der Wal,i.vanderwal@superduper-markets.com,medewerker salarisadministratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+37,mevr.,Bradley,van der Meer,b.vandermeer@superduper-markets.com,kwaliteitsmanager,2022-12-23 10:31:09,2022-12-23 10:31:09
+38,dhr.,Nienke,de Haan,n.dehaan@superduper-markets.com,medewerker communicatie,2022-12-23 10:31:09,2022-12-23 10:31:09
+39,mevr.,Aya,van de Berg,a.vandeberg@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+40,dr.,Luna,Maas,l.maas@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+41,dhr.,Bram,van den Eerenbeemt,b.vandeneerenbeemt@superduper-markets.com,supervisor,2022-12-23 10:31:09,2022-12-23 10:31:09
+42,ing.,Ella,Köse,e.köse@superduper-markets.com,verkoopadviseur,2022-12-23 10:31:09,2022-12-23 10:31:09
+43,ir.,Emily,Maas,e.maas@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+44,dr.,Evy,Evers,e.evers@superduper-markets.com,projectleider,2022-12-23 10:31:09,2022-12-23 10:31:09
+45,mevr.,Nynke,Mohamed,n.mohamed@superduper-markets.com,verkoopassistent,2022-12-23 10:31:09,2022-12-23 10:31:09
+46,ds.,Mia,Meijer,m.meijer@superduper-markets.com,magazijnmedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+47,mevr.,Catharina,de Pruyssenaere de la Woestijne,c.depruyssenaeredelawoestijne@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+48,prof.,Noortje,van de Velde,n.vandevelde@superduper-markets.com,medewerker communicatie,2022-12-23 10:31:09,2022-12-23 10:31:09
+49,drs.,Juul,Ramcharan,j.ramcharan@superduper-markets.com,verkoopadviseur,2022-12-23 10:31:09,2022-12-23 10:31:09
+50,dr.,Catharina,Zuérius Boxhorn van Miggrode,c.zuériusboxhornvanmiggrode@superduper-markets.com,kassamedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+51,dhr.,Kyano,Jonker,k.jonker@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+52,mevr.,Thijmen,Simsek,t.simsek@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+53,dhr.,Damian,The Elder,d.theelder@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+54,ds.,Gerrit,Smit,g.smit@superduper-markets.com,kwaliteitsmanager,2022-12-23 10:31:09,2022-12-23 10:31:09
+55,ing.,Bastiaan,van de Berg,b.vandeberg@superduper-markets.com,kassamedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+56,dhr.,Adriana,Elsenaar,a.elsenaar@superduper-markets.com,medewerker communicatie,2022-12-23 10:31:09,2022-12-23 10:31:09
+57,dhr.,Maud,Pons,m.pons@superduper-markets.com,supervisor,2022-12-23 10:31:09,2022-12-23 10:31:09
+58,mevr.,Ecrin,Martens,e.martens@superduper-markets.com,verkoopadviseur,2022-12-23 10:31:09,2022-12-23 10:31:09
+59,dhr.,Faas,Hendriks,f.hendriks@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+60,drs.,Mark,Smeets,m.smeets@superduper-markets.com,verkoopassistent,2022-12-23 10:31:09,2022-12-23 10:31:09
+61,dr.,Isabel,van de Velde,i.vandevelde@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+62,ing.,Oscar,Rijks,o.rijks@superduper-markets.com,verkoopassistent,2022-12-23 10:31:09,2022-12-23 10:31:09
+63,drs.,Tijmen,Adriaensdr,t.adriaensdr@superduper-markets.com,medewerker communicatie,2022-12-23 10:31:09,2022-12-23 10:31:09
+64,mevr.,Guus,Vroeg in de Wei,g.vroegindewei@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+65,drs.,Tara,Grinwis Plaat Stuitjes,t.grinwisplaatstuitjes@superduper-markets.com,kwaliteitsmanager,2022-12-23 10:31:09,2022-12-23 10:31:09
+66,dhr.,Annemijn,van Leeuwen,a.vanleeuwen@superduper-markets.com,verkoopassistent,2022-12-23 10:31:09,2022-12-23 10:31:09
+67,dr.,Fem,Kruns,f.kruns@superduper-markets.com,medewerker M&O,2022-12-23 10:31:09,2022-12-23 10:31:09
+68,prof.,Job,Vos,j.vos@superduper-markets.com,medewerker M&O,2022-12-23 10:31:09,2022-12-23 10:31:09
+69,drs.,Jasmijn,Blom,j.blom@superduper-markets.com,verkoopassistent,2022-12-23 10:31:09,2022-12-23 10:31:09
+70,drs.,Daniël,van Doorn,d.vandoorn@superduper-markets.com,verkoopassistent,2022-12-23 10:31:09,2022-12-23 10:31:09
+71,drs.,Milou,de Haas,m.dehaas@superduper-markets.com,medewerker M&O,2022-12-23 10:31:09,2022-12-23 10:31:09
+72,mevr.,Ecrin,Zhou,e.zhou@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+73,mevr.,Lot,van Doorn,l.vandoorn@superduper-markets.com,verkoopassistent,2022-12-23 10:31:09,2022-12-23 10:31:09
+74,dr.,Saar,van der Veen,s.vanderveen@superduper-markets.com,medewerker administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+75,mevr.,Noortje,Oversteeg,n.oversteeg@superduper-markets.com,medewerker communicatie,2022-12-23 10:31:09,2022-12-23 10:31:09
+76,drs.,Leon,van Beek,l.vanbeek@superduper-markets.com,magazijnmedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+77,dr.,Lauren,van de Ven,l.vandeven@superduper-markets.com,hoofd administratie,2022-12-23 10:31:09,2022-12-23 10:31:09
+78,drs.,Kyara,Groen,k.groen@superduper-markets.com,kassamedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+79,dr.,Tirza,Zhang,t.zhang@superduper-markets.com,kassamedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
+80,mevr.,Juul,van Doorn,j.vandoorn@superduper-markets.com,magazijnmedewerker,2022-12-23 10:31:09,2022-12-23 10:31:09
