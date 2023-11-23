@@ -2,10 +2,8 @@
     $aantalPersonen = 5;
     $leeftijden = vraagLeeftijden($aantalPersonen);
 
-    // Bereken statistieken
     list($boven18, $onder18, $gemiddeldeLeeftijd) = berekenStatistieken($leeftijden);
 
-    // Toon resultaten
     toonResultaten($boven18, $onder18, $gemiddeldeLeeftijd);
 ?>
 
