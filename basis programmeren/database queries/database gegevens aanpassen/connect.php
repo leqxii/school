@@ -2,7 +2,7 @@
 function connect() {
   $hostname = 'localhost';
 
-  $dbname = 'reisbureau';
+  $dbname = '';
     
   $username = 'root';
   $password = '';

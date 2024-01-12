@@ -4,6 +4,8 @@ $db = connect();
 
 $tablesQuery = $db->query("SHOW TABLES FROM reisbureau");
 $tablesResult = $tablesQuery->fetchAll(PDO::FETCH_COLUMN);
+
+$db = null;
 ?>
 <!DOCTYPE html>
 <html lang="en">

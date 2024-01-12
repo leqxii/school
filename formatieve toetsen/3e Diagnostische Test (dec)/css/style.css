@@ -1,0 +1,62 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column {
+  flex: 50%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  width: 550px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+thead tr {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 12px 15px;
+}
+
+form {
+  width: 500px;
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 15px;
+  cursor: pointer;
+}
