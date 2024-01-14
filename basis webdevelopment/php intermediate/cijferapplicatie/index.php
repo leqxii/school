@@ -1,26 +1,46 @@
+<?php
+  session_start();
+  include("includes/db.php");
+
+  $gebruikersnaam = "";
+  $wachtwoord = "";
+
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+      $gebruikersnaam = $_POST["username"];
+      $wachtwoord = $_POST["password"];
+  }
+
+  $query_leerling = "SELECT * FROM studenten WHERE login = '$gebruikersnaam' AND password = '$wachtwoord'";
+  $result_leerling = $conn->query($query_leerling);
+
+  if ($result_leerling->num_rows > 0) {
+      $_SESSION["gebruiker"] = "leerling";
+      header("Location: users/leerling_home.php");
+      exit();
+  } elseif ($gebruikersnaam == "Famke" && $wachtwoord == "123") {
+      $_SESSION["gebruiker"] = "docent";
+      header("Location: users/docent_home.php");
+      exit();
+  } else {
+      $foutmelding = "Ongeldige gebruikersnaam of wachtwoord.";
+  }
+
+  $conn->close();
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cijferapplicatie</title>
-  <link rel="stylesheet" href="index.css">
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
-<body>
-<body>
-  <main id="main-holder">
-    <h1 id="login-header">Login</h1>
-    
-    <div id="login-error-msg-holder">
-      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+  <body>
+    <div class="form">
+      <p>Login</p>
+      <form method="post" action="">
+        <input type="text" name="username" placeholder="username">
+        <input type="password" name="password" placeholder="password">
+        <button type="submit">login</button>
+      </form>
     </div>
-    
-    <form id="login-form">
-      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
-      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
-      <input type="submit" value="Login" id="login-form-submit">
-    </form>
-  </main>
-</body>
-</body>
+  </body>
 </html>
