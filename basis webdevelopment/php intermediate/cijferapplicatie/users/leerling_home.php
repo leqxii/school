@@ -6,6 +6,10 @@
     header("Location: ../index.php");
     exit();
   }
+
+  $student_id = $_SESSION["student_id"];
+
+  $conn->close();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,6 +19,6 @@
   <title>Document</title>
 </head>
   <body>
-    
+    <?=$student_id?>
   </body>
 </html>

@@ -15,6 +15,7 @@
 
   if ($result_leerling->num_rows > 0) {
       $_SESSION["gebruiker"] = "leerling";
+      $_SESSION["student_id"] = "";
       header("Location: users/leerling_home.php");
       exit();
   } elseif ($gebruikersnaam == "Famke" && $wachtwoord == "123") {
