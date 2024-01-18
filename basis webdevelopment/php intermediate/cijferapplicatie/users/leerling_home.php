@@ -8,7 +8,7 @@
   }
   $student_id = $_SESSION['ID'];
 
-  $query_resultaten = "SELECT * FROM resultaten WHERE student_id = '$student_id'";
+  $query_resultaten = "SELECT resultaten.cijfer, toetsen.toetsnaam FROM resultaten INNER JOIN toetsen ON resultaten.toets_id = toetsen.toets_id WHERE resultaten.student_id = '$student_id'";
   $result_resultaten = $conn->query($query_resultaten);
 
   $results = $result_resultaten->fetch_all(MYSQLI_ASSOC);
@@ -18,24 +18,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" type="text/css" href="../css/users.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
   </head>
   <body>
-    <table>
-      <tr>
-        <th>Resultaat ID</th>
-        <th>Toets ID</th>
-        <th>Cijfer</th>
-      </tr>
-      <?php foreach ($results as $result): ?>
-      <tr>
-        <td><?= $result['resultaat_id'] ?></td>
-        <td><?= $result['toets_id'] ?></td>
-        <td><?= $result['cijfer'] ?></td>
-      </tr>
-      <?php endforeach; ?>
-    </table>
+    <div class="table-container">
+      <table>
+        <tr>
+          <th>Toets</th>
+          <th>Cijfer</th>
+        </tr>
+        <?php foreach ($results as $result): ?>
+        <tr>
+          <td><?= $result['toetsnaam'] ?></td>
+          <td><?= $result['cijfer'] ?></td>
+        </tr>
+        <?php endforeach; ?>
+      </table>
+    </div>
   </body>
 </html>
