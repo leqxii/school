@@ -45,9 +45,11 @@
   <form method="POST" onsubmit="return validateForm()">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" value="<?= $artist['name']; ?>">
+    <div id="nameError" class="error"></div>
     <br>
     <label for="year">Year:</label>
     <input type="text" id="year" name="year" value="<?= $artist['year']; ?>">
+    <div id="yearError" class="error"></div>
     <br>
     <input type="submit" value="Update">
   </form>
@@ -60,12 +62,23 @@
       var yearRegex = /^[0-9]{4}$/;
 
       var isValid = true;
+      
+      document.getElementById('nameError').innerHTML = "";
+      document.getElementById('yearError').innerHTML = "";
 
-      if (!nameRegex.test(name)) {
+      if (!name.trim()) {
+        document.getElementById('nameError').innerHTML = "Name is required.";
+        isValid = false;
+      } else if (!nameRegex.test(name)) {
+        document.getElementById('nameError').innerHTML = "Name must contain only letters and spaces (3-50 characters).";
         isValid = false;
       }
 
-      if (!yearRegex.test(year) || year < 1940 || year > 2024) {
+      if (!year.trim()) {
+        document.getElementById('yearError').innerHTML = "Year is required.";
+        isValid = false;
+      } else if (!yearRegex.test(year) || year < 1940 || year > 2024) {
+        document.getElementById('yearError').innerHTML = "Year must be a valid year between 1940 and 2024.";
         isValid = false;
       }
 
